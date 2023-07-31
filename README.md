@@ -130,3 +130,25 @@ Agora você tem o servidor backend (API) e o servidor de desenvolvimento do fron
 Você poderá acessar o aplicativo frontend em execução no navegador através do endereço local indicado pelo servidor de desenvolvimento do React (por padrão, geralmente é http://localhost:3000). E qualquer solicitação de API feita pelo frontend será tratada pelo servidor backend, que deve estar ouvindo em uma porta diferente daquela usada pelo servidor de desenvolvimento do React (por exemplo, http://localhost:5000).
 
 Lembre-se de que o servidor backend e o servidor de desenvolvimento do frontend precisam estar em execução simultaneamente para que o projeto funcione corretamente. Para parar a execução dos servidores, basta pressionar `Ctrl + C` nos terminais correspondentes.
+
+
+# Projeto Orçamento - CRUD Node.js e React
+Este é um projeto de CRUD (Create, Read, Update, Delete) desenvolvido com Node.js e React, que permite gerenciar orçamentos. O projeto consiste em duas principais partes: backend e frontend.
+
+## Backend
+Na pasta /backend, você encontrará o código do servidor Node.js que lida com as requisições HTTP, realiza a conexão com o banco de dados MySQL e fornece uma API para manipulação dos orçamentos. Dentro da pasta /backend, temos também as seguintes subpastas:
+
+/controllers: Esta pasta contém os controladores da API. Os controladores são responsáveis por receber as requisições HTTP, processá-las e interagir com o banco de dados para realizar as operações de CRUD nos orçamentos.
+
+/routes: Aqui estão definidas as rotas da aplicação. As rotas determinam quais endpoints da API são acessados para cada tipo de requisição HTTP (GET, POST, PUT, DELETE). As rotas são vinculadas aos controladores, ou seja, quando uma requisição chega em uma determinada rota, ela é direcionada para o controlador correspondente para tratar a requisição.
+
+## Frontend
+Na pasta /frontend, você encontrará o código da aplicação frontend desenvolvida em React. Essa parte é responsável por exibir a interface de usuário, permitindo a interação com os orçamentos cadastrados. Dentro da pasta /frontend, temos também as seguintes subpastas:
+
+/styles: Esta pasta contém os arquivos de estilos em CSS para a interface da aplicação. Aqui são definidas as cores, fontes, tamanhos, layout e outros aspectos visuais da aplicação.
+
+/components: Aqui estão localizados os componentes reutilizáveis utilizados na construção das páginas. Os componentes são blocos de código que podem ser utilizados em diferentes partes da aplicação, tornando o código mais modular e fácil de manter.
+
+/Pages: Nesta pasta, você encontrará as páginas principais da aplicação, como a página de Cadastro e a página de Pesquisa. Cada página é composta por componentes reutilizáveis e possui sua própria lógica de interação com o usuário.
+
+Essa estrutura de pastas e arquivos torna o projeto organizado e facilita o desenvolvimento e a manutenção das diferentes partes da aplicação. A divisão em backend e frontend permite que essas partes sejam desenvolvidas e mantidas separadamente, favorecendo o trabalho em equipe e possibilitando a reutilização de código em futuros projetos.
