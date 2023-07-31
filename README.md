@@ -133,7 +133,7 @@ Lembre-se de que o servidor backend e o servidor de desenvolvimento do frontend 
 
 
 # Projeto Orçamento - CRUD Node.js e React
-Este é um projeto de CRUD (Create, Read, Update, Delete) desenvolvido com Node.js e React, que permite gerenciar orçamentos. O projeto consiste em duas principais partes: backend e frontend.
+Este é um projeto de CRUD (Create, Read, Update, Delete) desenvolvido com Node.js e React, que permite gerenciar e filtrar orçamentos. O projeto consiste em duas principais partes: backend e frontend.
 
 ## Backend
 Na pasta /backend, você encontrará o código do servidor Node.js que lida com as requisições HTTP, realiza a conexão com o banco de dados MySQL e fornece uma API para manipulação dos orçamentos. Dentro da pasta /backend, temos também as seguintes subpastas:
